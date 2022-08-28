@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa"
-import { HiOutlineMail } from 'react-icons/hi'
+import {FaBars, FaTimes} from "react-icons/fa"
 import {Link} from "react-scroll"
+import Resume from './Resume'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -17,6 +17,9 @@ const Navbar = () => {
         {/* Menu */}
 
         <ul className='hidden md:flex font-montserrat'>
+            <li>
+                <Resume />
+            </li>
             <li>
                 <Link to="home" smooth={true} duration={500}>
                     Home
@@ -53,6 +56,11 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#e3e5e0] flex flex-col justify-center items-center font-montserrat'}>
+            <li className='py-6 text-4xl'>
+                <div onClick={handleClick}>
+                    <Resume />
+                </div>
+            </li>
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                     Home

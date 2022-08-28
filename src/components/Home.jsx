@@ -20,7 +20,9 @@ const Home = () => {
                     <a href="https://github.com/zyjjay" target='_blank'><FaGithub className='github-icon' size={35}/></a>
                 </div>
                 <div className='email-btn py-2 ml-2 my-2 rounded-full hover:cursor-pointer'>
-                    <HiOutlineMail className='email-icon' size={35}/>
+                    <a href="mailto:jasonyj.zhang@mail.utoronto.ca?subject=Reaching out!">
+                        <HiOutlineMail className='email-icon' size={35}/>
+                    </a>
                 </div>
             </div>
 
