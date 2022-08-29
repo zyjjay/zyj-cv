@@ -14,7 +14,7 @@ const Home = () => {
 
             <div className='social-container flex'>
                 <div className='linkedin-btn py-2 mr-2 my-2 rounded-full hover:cursor-pointer'>
-                    <a href="https://www.linkedin.com/in/jason-zhang-615721217/" target='_blank'><FaLinkedin className='linkedin-icon ' size={35}/></a>
+                    <a href="https://www.linkedin.com/in/zyj-jason/" target='_blank'><FaLinkedin className='linkedin-icon ' size={35}/></a>
                 </div>
                 <div className='github-btn px-2 py-2 mx-2 my-2 rounded-full hover:cursor-pointer'>
                     <a href="https://github.com/zyjjay" target='_blank'><FaGithub className='github-icon' size={35}/></a>
