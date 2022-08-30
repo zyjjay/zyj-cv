@@ -17,9 +17,9 @@ const Navbar = () => {
         {/* Menu */}
 
         <ul className='hidden md:flex font-montserrat'>
-            <li>
+            {/* <li>
                 <Resume />
-            </li>
+            </li> */}
             <li>
                 <Link to="home" smooth={true} duration={500}>
                     Home

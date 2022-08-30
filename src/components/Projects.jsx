@@ -40,10 +40,10 @@ const Projects = () => {
                             NFT Price Monitoring web app
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://nft-tracker-2cce7.web.app/" target="_blank">
+                            <a href="https://nft-tracker-2cce7.web.app/" target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/zyjjay/nft-react-firebase-app" target="_blank">
+                            <a href="https://github.com/zyjjay/nft-react-firebase-app" target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg'>GitHub</button>
                             </a>
                         </div>
@@ -59,10 +59,10 @@ const Projects = () => {
                             Instagram for astronomy pictures
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://zyjjay.github.io/shopify-spacetagram/" target="_blank">
+                            <a href="https://zyjjay.github.io/shopify-spacetagram/" target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/zyjjay/shopify-spacetagram" target="_blank">
+                            <a href="https://github.com/zyjjay/shopify-spacetagram" target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg'>GitHub</button>
                             </a>
                         </div>
@@ -78,10 +78,10 @@ const Projects = () => {
                             Productivity web app
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://devpost.com/software/zen-mo" target="_blank">
+                            <a href="https://devpost.com/software/zen-mo" target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg'>Devpost</button>
                             </a>
-                            <a href="https://github.com/dylncheng/productivity-app" target="_blank">
+                            <a href="https://github.com/dylncheng/productivity-app" target="_blank" rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white font-bold text-lg'>GitHub</button>
                             </a>
                         </div>

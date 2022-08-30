@@ -1,8 +1,9 @@
 import React from 'react'
-import {FaGithub, FaLinkedin} from "react-icons/fa"
-import { HiOutlineMail } from 'react-icons/hi'
+import Resume from './Resume'
+import Typewriter from 'typewriter-effect'
 
 const Home = () => {
+
   return (
     <div name='home' className='w-full h-screen'>
 
@@ -10,9 +11,37 @@ const Home = () => {
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-[#d22a36] text-2xl sm:text-5xl font-montserrat'>Hey! My name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold font-montserrat'>Jason Zhang</h1>
-            <h2 className='pt-4 text-1xl sm:text-3xl text-[#4C4E52] font-work-sans'>A third-year Computer Engineering Student. </h2>
+            <h2 className='py-4 text-1xl sm:text-3xl text-[#4C4E52] font-work-sans'>
+                <Typewriter 
+                    options={{
+                        loop: true,
+                    }}
+                    onInit={(typewriter) => {
+                        typewriter.changeDelay(25)
+                        .changeDeleteSpeed(10)
+                        .start()
+                        .pauseFor(1000)
+                        .typeString("I'm a third-year Computer Engineering student,")
+                        .pauseFor(1250)
+                        // .deleteChars(40)
+                        .deleteAll()
+                        .typeString("a Software Engineer,")
+                        .pauseFor(1250)
+                        // .deleteChars(18)
+                        .deleteAll()
+                        .typeString("a Data Scientist,")
+                        .pauseFor(1250)
+                        // .deleteChars(15)
+                        .deleteAll()
+                        .typeString("and a Gamer!")
+                        .pauseFor(1250)
+                        .deleteAll()
+                    }}
+                
+                />
+            </h2>
 
-            <div className='social-container flex'>
+            {/* <div className='social-container flex'>
                 <div className='linkedin-btn py-2 mr-2 my-2 rounded-full hover:cursor-pointer'>
                     <a href="https://www.linkedin.com/in/zyj-jason/" target='_blank'><FaLinkedin className='linkedin-icon ' size={35}/></a>
                 </div>
@@ -24,6 +53,10 @@ const Home = () => {
                         <HiOutlineMail className='email-icon' size={35}/>
                     </a>
                 </div>
+            </div> */}
+
+            <div className='hover:cursor-pointer'>
+                <Resume />
             </div>
 
             {/* <div>
