@@ -23,15 +23,12 @@ const Home = () => {
                         .pauseFor(1000)
                         .typeString("I'm a third-year Computer Engineering student,")
                         .pauseFor(1250)
-                        // .deleteChars(40)
                         .deleteAll()
                         .typeString("a Software Engineer,")
                         .pauseFor(1250)
-                        // .deleteChars(18)
                         .deleteAll()
                         .typeString("a Data Scientist,")
                         .pauseFor(1250)
-                        // .deleteChars(15)
                         .deleteAll()
                         .typeString("and a Gamer!")
                         .pauseFor(1250)
@@ -40,6 +37,10 @@ const Home = () => {
                 
                 />
             </h2>
+            <div className='hover:cursor-pointer w-1'>
+                <Resume />
+            </div>
+            
 
             {/* <div className='social-container flex'>
                 <div className='linkedin-btn py-2 mr-2 my-2 rounded-full hover:cursor-pointer'>
@@ -55,9 +56,7 @@ const Home = () => {
                 </div>
             </div> */}
 
-            <div className='hover:cursor-pointer'>
-                <Resume />
-            </div>
+            
 
             {/* <div>
                 <button href="#_" class="flex items-center px-3 py-2 text-lg text-white bg-[#d22a] rounded-sm hover:bg-[#d22a36] sm:w-auto sm:mb-0 duration-200" data-rounded="rounded-2xl" data-primary-reset="{}">
