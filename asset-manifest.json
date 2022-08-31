@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zyj-cv/static/css/main.afcdad0e.css",
-    "main.js": "/zyj-cv/static/js/main.f2c546ca.js",
+    "main.js": "/zyj-cv/static/js/main.b6545a09.js",
     "static/media/spacetagram.png": "/zyj-cv/static/media/spacetagram.4f3399f7cb6ca41dcb6a.png",
     "static/media/nftracker.png": "/zyj-cv/static/media/nftracker.14adebef20bee3d314d8.png",
     "static/media/mappr.png": "/zyj-cv/static/media/mappr.5f6ec43c32b7131ba31d.png",
@@ -9,7 +9,7 @@
     "static/media/react.png": "/zyj-cv/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/spark.png": "/zyj-cv/static/media/spark.c53a55512c60ade4f6c3.png",
     "static/media/cpp-lang-logo.png": "/zyj-cv/static/media/cpp-lang-logo.5185ce2f4c945505ee4f.png",
-    "static/media/jason-zhang-resume.pdf": "/zyj-cv/static/media/jason-zhang-resume.9f68ed8315022f63ac44.pdf",
+    "static/media/jason-zhang-resume.pdf": "/zyj-cv/static/media/jason-zhang-resume.6dc89bd4cfe6fe83707e.pdf",
     "static/media/c-lang-logo.png": "/zyj-cv/static/media/c-lang-logo.837a49116fe3c020f47d.png",
     "static/media/zenmo-landing.png": "/zyj-cv/static/media/zenmo-landing.1e14bffe0f74cdae65a0.png",
     "static/media/css.png": "/zyj-cv/static/media/css.cd13bf0a8423210549cb.png",
@@ -19,10 +19,10 @@
     "static/media/firebase.svg": "/zyj-cv/static/media/firebase.e6583a29712875c8977afcba1d0b6883.svg",
     "index.html": "/zyj-cv/index.html",
     "main.afcdad0e.css.map": "/zyj-cv/static/css/main.afcdad0e.css.map",
-    "main.f2c546ca.js.map": "/zyj-cv/static/js/main.f2c546ca.js.map"
+    "main.b6545a09.js.map": "/zyj-cv/static/js/main.b6545a09.js.map"
   },
   "entrypoints": [
     "static/css/main.afcdad0e.css",
-    "static/js/main.f2c546ca.js"
+    "static/js/main.b6545a09.js"
   ]
 }
