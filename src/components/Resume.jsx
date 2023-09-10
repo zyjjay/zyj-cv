@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumePDF from "../assets/jason-zhang-resume.pdf"
+import ResumePDF from "../assets/jason-zhang-resume-2.pdf"
 import { AiOutlinePaperClip } from 'react-icons/ai'
 
 const Resume = () => {
